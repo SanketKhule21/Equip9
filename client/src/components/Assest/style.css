@@ -1,0 +1,82 @@
+@media (min-width: 576px){
+.jumbotron {
+    padding: 1rem 2rem;
+}
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  a {
+    color: #ffd541 !important;
+    text-decoration: none;
+    /* background-color: #ffd541; */
+    -webkit-text-decoration-skip: objects;
+    font-size: larger;
+  }
+
+  a:hover{
+    color: whitesmoke !important;
+
+  }
+
+  .logoSpan{
+    color: white;
+    margin-top :-1px;
+    margin-bottom: -1rem;
+    font-size: smaller;
+  }
+  .logoSpan:hover{
+    color: #ffd541 !important;
+  }
+.headerMid{
+    color: #ffd541 !important;
+
+}
+  
+  
+  .containerMain{
+    font-family: "Georgia", Serif;
+      font-weight:bold;
+        box-sizing:border-box;
+      color:black;
+      text-align:center;
+      padding:0.5em;
+      .headerMain {
+      font-size:2.2em;
+        /* margin:0.2em; */
+         text-shadow: 0.04em 0.04em 0 rgba(0,0,0,0.5);
+        position:relative;
+        &:after {
+          content: " ";
+        background:#ffffff;
+          position:relative;
+          width:110%;
+          height:80%; 
+          mix-blend-mode: screen;
+          left:-5%;
+          transform: rotate(-5deg);
+          top:10%;
+        }
+      }
+    }
+ 
+    .form-group{
+        font-size: large;
+    }
+    .btn{
+        background-color: #ffd541;
+        color: black;
+        border: 1px solid black;
+    }
+    #customSignIn{
+        background-color: hsl(140,40%,55%);
+
+    }
+
+    #customForgotPass{
+        background-color: hsl(27,90%,55%);
+
+    }
