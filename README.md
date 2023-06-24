@@ -7,4 +7,9 @@
 
 # Login Component
 ![image](https://github.com/SanketKhule21/Equip9/assets/94194476/e1db0454-25fb-4e40-b8da-8c5e09b651c9)
+# Profile Component
+
+![image](https://github.com/SanketKhule21/Equip9/assets/94194476/0552c908-d876-48e1-9fbc-46dd8c5a18c9)
+
+
 
